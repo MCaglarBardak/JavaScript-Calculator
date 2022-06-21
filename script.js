@@ -15,8 +15,8 @@ for (var i = 0; i < 20; i++) {
 
 function yazdir() {
     account.value = account.value + this.value;
+    let sonuc = account.value;
 }
-
 
 clear.addEventListener("click", sil)
 function sil() {
@@ -37,6 +37,4 @@ function hesapla() {
     else {
         account.value = eval(account.value);
     }
-
-
 }
