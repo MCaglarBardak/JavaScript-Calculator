@@ -6,16 +6,16 @@ let clear = document.querySelector(".clear");
 
 let same = document.querySelector(".equal-sign");
 
+let ThisClear = document.querySelector(".delete");
 
 for (var i = 0; i < 20; i++) {
-    if (i != 3 && i != 18) {
+    if (i != 2 && i != 3) {
         tus[i].addEventListener("click", yazdir);
     }
 }
 
 function yazdir() {
     account.value = account.value + this.value;
-    let sonuc = account.value;
 }
 
 clear.addEventListener("click", sil)
